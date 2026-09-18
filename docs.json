@@ -1,15 +1,20 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
   "name": "Petstore API Docs",
   "theme": "mint",
-  "navigation": [
-    {
-      "group": "Visão Geral",
-      "pages": ["index"]
-    },
-    {
-      "group": "Endpoints",
-      "pages": ["api-reference/pet"]
-    }
-  ]
+  "colors": {
+    "primary": "#0D9373"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Visão Geral",
+        "pages": ["index"]
+      },
+      {
+        "group": "Endpoints",
+        "pages": ["api-reference/pet"]
+      }
+    ]
+  }
 }
