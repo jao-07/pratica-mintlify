@@ -14,32 +14,27 @@
       ]
     },
     {
-      "group": "Endpoints",
+      "group": "Pets",
       "pages": [
-        {
-          "group": "Pets",
-          "pages": [
-            "api-reference/pets/add-pet",
-            "api-reference/pets/find-pet-by-id",
-            "api-reference/pets/find-pet-by-status",
-            "api-reference/pets/find-pet-by-tag",
-            "api-reference/pets/update-pet",
-            "api-reference/pets/upload-image",
-            "api-reference/pets/delete-pet"
-          ]
-        },
-        {
-          "group": "Users",
-          "pages": [
-            "api-reference/users/create-user",
-            "api-reference/users/create-users",
-            "api-reference/users/login-users",
-            "api-reference/users/logout-users",
-            "api-reference/users/get-user",
-            "api-reference/users/update-user",
-            "api-reference/users/delete-user"
-          ]
-        }
+        "api-reference/pets/add-pet",
+        "api-reference/pets/find-pet-by-id",
+        "api-reference/pets/find-pet-by-status",
+        "api-reference/pets/find-pet-by-tag",
+        "api-reference/pets/update-pet",
+        "api-reference/pets/upload-image",
+        "api-reference/pets/delete-pet"
+      ]
+    },
+    {
+      "group": "Users",
+      "pages": [
+        "api-reference/users/create-user",
+        "api-reference/users/create-users",
+        "api-reference/users/get-user",
+        "api-reference/users/login-users",
+        "api-reference/users/logout-users",
+        "api-reference/users/update-user",
+        "api-reference/users/delete-user"
       ]
     }
   ]
