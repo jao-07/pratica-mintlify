@@ -16,7 +16,16 @@
       },
       {
         "group": "Endpoints",
-        "pages": ["api-reference/pet"]
+        "pages": [
+          {
+            "group": "Pets",
+            "pages": ["api-reference/pets"]
+          },
+          {
+            "group": "Users",
+            "pages": ["api-reference/users"]
+          }
+        ]
       }
     ]
   }
