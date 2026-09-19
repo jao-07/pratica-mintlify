@@ -1,32 +1,46 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Petstore API Docs",
   "theme": "mint",
   "colors": {
     "primary": "#0D9373"
   },
-  "api": {
-    "openapi": "openapi.yaml"
-  },
-  "navigation": {
-    "groups": [
-      {
-        "group": "Visão Geral",
-        "pages": ["index"]
-      },
-      {
-        "group": "Endpoints",
-        "pages": [
-          {
-            "group": "Pets",
-            "pages": ["api-reference/pets"]
-          },
-          {
-            "group": "Users",
-            "pages": ["api-reference/users"]
-          }
-        ]
-      }
-    ]
-  }
+  "openapi": "openapi.yaml",
+  "navigation": [
+    {
+      "group": "Visão Geral",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "group": "Endpoints",
+      "pages": [
+        {
+          "group": "Pets",
+          "pages": [
+            "api-reference/pets/add-pet",
+            "api-reference/pets/find-pet-by-id",
+            "api-reference/pets/find-pet-by-status",
+            "api-reference/pets/find-pet-by-tag",
+            "api-reference/pets/update-pet",
+            "api-reference/pets/upload-image",
+            "api-reference/pets/delete-pet"
+          ]
+        },
+        {
+          "group": "Users",
+          "pages": [
+            "api-reference/users/create-user",
+            "api-reference/users/create-users",
+            "api-reference/users/login-users",
+            "api-reference/users/logout-users",
+            "api-reference/users/get-user",
+            "api-reference/users/update-user",
+            "api-reference/users/delete-user"
+          ]
+        }
+      ]
+    }
+  ]
 }
