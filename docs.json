@@ -6,7 +6,8 @@
     "primary": "#0D9373"
   },
   "api": {
-    "openapi": "openapi.yaml"
+    "openapi": "openapi.yaml",
+    "baseUrl": "https://petstore3.swagger.io/api/v3"
   },
   "navigation": {
     "groups": [
