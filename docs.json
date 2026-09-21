@@ -38,6 +38,13 @@
           "api-reference/users/update-user",
           "api-reference/users/delete-user"
         ]
+      },
+      {
+        "group": "Store",
+        "pages": [
+          "api-reference/store/get-inventory",
+          "api-reference/store/place-order"
+        ]
       }
     ]
   }
